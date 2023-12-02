@@ -1,0 +1,1 @@
+A use for inheritance in a program is to be able to reuse code in other functions, this makes a program more efficient. Another use for inheritance in a program is to be able to create parent (base) and child (derived) classes. With the use of the super() function, child classes will be able to inherit from the parent class.
