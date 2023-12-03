@@ -1,0 +1,8 @@
+1. The change inside increment_int_a doesn't change the variable a after the function call 
+because increment_int_a(a) is calling by value, so only a copy of 'a' is passed. 
+
+2. The change inside increment_int_b does change the variable b after the function call because 
+'b' is a variable that can be mutable, so its value can be changed.
+
+3. They differ in answer because 'a' is a variable that can't be changed whereas the variable 
+'b' can be changed.
